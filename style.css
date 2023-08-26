@@ -125,7 +125,7 @@ span {
     margin-top: 5px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     body {
         font-size: 12px;
     }
@@ -222,3 +222,4 @@ span {
         font-size: 10px;
     }
 }
+ */
