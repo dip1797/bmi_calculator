@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-    width: 240px;
+    width: 280px;
     padding: 12px;
     background: linear-gradient(180deg, #E5E5E5 0%, #C9D1D3 100%);
     text-align: center;
