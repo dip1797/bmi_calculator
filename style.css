@@ -5,14 +5,14 @@
 }
 
 body {
-    font-size: 14px;
+    font-size: 20px;
     min-height: 100vh;
     background-color: var(--back);
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    
 }
 
 :root {
@@ -23,8 +23,7 @@ body {
 }
 
 .card {
-    width: 280px;
-    height:200px;
+    width: 240px;
     padding: 12px;
     background: linear-gradient(180deg, #E5E5E5 0%, #C9D1D3 100%);
     text-align: center;
@@ -116,7 +115,7 @@ th, td {
 
 span {
     color: #001C30;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 #error {
@@ -126,13 +125,14 @@ span {
     margin-top: 5px;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         font-size: 12px;
     }
     .card {
         font-size: 10px;
         width: 200px;
+        
         padding: 8px;
         background: linear-gradient(180deg, #E5E5E5 0%, #C9D1D3 100%);
         text-align: center;
@@ -216,11 +216,10 @@ span {
         margin-left: 30px;
         text-align: center;
         padding: 8px;
-        border-radius: 8px;
+       
         background-color: var(--secondary);
         color: white;
         margin-top: 8px;
         font-size: 10px;
     }
 }
- */
